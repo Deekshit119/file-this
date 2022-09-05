@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_operation">
+    <sys_api_operation action="DELETE">
+        <active>true</active>
+        <api_collection display_value="Rest trigger for flow id=3d990d9b97e85910d872f9cfe153af23 - v1">7b9e675797e09910d872f9cfe153af42</api_collection>
+        <api_request display_value="Generated Request for 3d990d9b97e85910d872f9cfe153af23">9d67f79f65e0991057f0a1f5b8a2ac7e</api_request>
+        <api_security_scheme/>
+        <deprecated>false</deprecated>
+        <description/>
+        <execute_asynchronously>true</execute_asynchronously>
+        <execution_record>3d990d9b97e85910d872f9cfe153af23</execution_record>
+        <execution_type>sys_hub_flow</execution_type>
+        <http_method>post</http_method>
+        <name>POST /</name>
+        <operation_id/>
+        <origin>flow_designer</origin>
+        <path>/</path>
+        <sys_class_name/>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>08ae675797e09910d872f9cfe153af46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>POST /</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope/>
+        <sys_update_name>sys_api_operation_08ae675797e09910d872f9cfe153af46</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-13 08:46:46</sys_updated_on>
+    </sys_api_operation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application/>
+        <file_path/>
+        <instance_id>667105dddb9689504d2bac44d4961987</instance_id>
+        <instance_name>xrayspokestaging</instance_name>
+        <name>sys_api_operation_08ae675797e09910d872f9cfe153af46</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_operation"><sys_api_operation action="INSERT_OR_UPDATE"><active>true</active><api_collection display_value="Rest trigger for flow id=3d990d9b97e85910d872f9cfe153af23 - v1">7b9e675797e09910d872f9cfe153af42</api_collection><api_request display_value="Generated Request for 3d990d9b97e85910d872f9cfe153af23">9d67f79f65e0991057f0a1f5b8a2ac7e</api_request><api_security_scheme/><deprecated>false</deprecated><description/><execute_asynchronously>true</execute_asynchronously><execution_record>3d990d9b97e85910d872f9cfe153af23</execution_record><execution_type>sys_hub_flow</execution_type><http_method>post</http_method><name>POST /</name><operation_id/><origin>flow_designer</origin><path>/</path><sys_class_name/><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id>08ae675797e09910d872f9cfe153af46</sys_id><sys_mod_count>0</sys_mod_count><sys_name>POST /</sys_name><sys_package/><sys_policy/><sys_scope/><sys_update_name>sys_api_operation_08ae675797e09910d872f9cfe153af46</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-13 08:46:46</sys_updated_on></sys_api_operation></record_update>]]></payload>
+        <payload_hash>1486256266</payload_hash>
+        <record_name>POST /</record_name>
+        <reverted_from/>
+        <source>c63d1b2897805510d872f9cfe153afac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-13 08:46:46</sys_created_on>
+        <sys_id>2d67f79f97e09910d872f9cfe153af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181f6bd409f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-13 08:46:46</sys_updated_on>
+        <type>API Operation</type>
+        <update_guid>2567f79ff2e099101b1c27ebbfd01e91</update_guid>
+        <update_guid_history>2567f79ff2e099101b1c27ebbfd01e91:1486256266,ed67f79fe7e099106bf4c40b9e88318a:78002266,b4b3b79be4e09910387933af2c3a492d:-1322238946,70b3b79b92e09910add59158b0219427:1564474350,38df63d76ae099103ef75b84cef38c31:-1463647442,f0df63d764e09910adeace59044a0b2b:1423065854,ccae675728e09910a3ab169d03cbe650:-2118100653,4cae675753e09910f936c17a6f350f48:300585530</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 21:41:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_api_operation">sys_api_operation</sys_db_object>
+        <sys_id>07f5637ac926444483e7cb58d9c3a3f1</sys_id>
+        <sys_metadata>08ae675797e09910d872f9cfe153af46</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>POST /</sys_name>
+        <sys_package display_value="JFrog Xray" source="x_jfro_xray_spoke">8518bb0a2f110110d2dbb6a62799b6aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="JFrog Xray">8518bb0a2f110110d2dbb6a62799b6aa</sys_scope>
+        <sys_scope_delete display_value="">03017db5537a41e08009141b04113031</sys_scope_delete>
+        <sys_update_name>sys_api_operation_08ae675797e09910d872f9cfe153af46</sys_update_name>
+        <sys_update_version display_value="sys_api_operation_08ae675797e09910d872f9cfe153af46">2d67f79f97e09910d872f9cfe153af91</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 21:41:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

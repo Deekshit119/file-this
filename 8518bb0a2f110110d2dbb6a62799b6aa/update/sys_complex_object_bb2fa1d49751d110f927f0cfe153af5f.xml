@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf72fa1d4cb51d1108779631511f3215f</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>8518bb0a2f110110d2dbb6a62799b6aa</scope_name>
+        <serialized_content>{"FlowDesigner:FDf72fa1d4cb51d1108779631511f3215f":{},"FlowDesigner:FDf72fa1d4cb51d1108779631511f3215f.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"payload\",\"mandatory\":\"false\",\"uiUniqueId\":\"8bc6b4eb-939f-4170-b863-a29db8e0792b\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDf72fa1d4cb51d1108779631511f3215f\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>alexh</sys_created_by>
+        <sys_created_on>2022-08-09 21:56:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb2fa1d49751d110f927f0cfe153af5f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FDf72fa1d4cb51d1108779631511f3215f</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="JFrog Xray" source="x_jfro_xray_spoke">8518bb0a2f110110d2dbb6a62799b6aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JFrog Xray">8518bb0a2f110110d2dbb6a62799b6aa</sys_scope>
+        <sys_update_name>sys_complex_object_bb2fa1d49751d110f927f0cfe153af5f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 16:34:55</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

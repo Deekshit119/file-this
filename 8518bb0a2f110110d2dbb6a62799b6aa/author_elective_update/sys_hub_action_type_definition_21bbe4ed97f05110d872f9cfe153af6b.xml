@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template>DATASTREAM</action_template>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Xray">b20124ef874e05109bc4ddb83cbb3566</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>datastream fo xray data</description>
+        <ih_action>false</ih_action>
+        <internal_name>jfrog_xray_violation_datastream</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>JFrog Xray Violation Datastream</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-19 17:43:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>21bbe4ed97f05110d872f9cfe153af6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>JFrog Xray Violation Datastream</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="JFrog Xray" source="x_jfro_xray_spoke">8518bb0a2f110110d2dbb6a62799b6aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JFrog Xray">8518bb0a2f110110d2dbb6a62799b6aa</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_21bbe4ed97f05110d872f9cfe153af6b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-19 17:43:10</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=21bbe4ed97f05110d872f9cfe153af6b"/>
+    <sys_variable_value action="DELETE" query="document_key=21bbe4ed97f05110d872f9cfe153af6b"/>
+    <sys_hub_step_instance action="DELETE" query="action=21bbe4ed97f05110d872f9cfe153af6b"/>
+    <sys_hub_action_input action="DELETE" query="model=21bbe4ed97f05110d872f9cfe153af6b"/>
+    <sys_hub_action_output action="DELETE" query="model=21bbe4ed97f05110d872f9cfe153af6b"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=21bbe4ed97f05110d872f9cfe153af6b"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=21bbe4ed97f05110d872f9cfe153af6b"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_21bbe4ed97f05110d872f9cfe153af6b"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_21bbe4ed97f05110d872f9cfe153af6b"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_21bbe4ed97f05110d872f9cfe153af6b"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_21bbe4ed97f05110d872f9cfe153af6b"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=21bbe4ed97f05110d872f9cfe153af6b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="JFrog Xray">8518bb0a2f110110d2dbb6a62799b6aa</application>
+        <file_path/>
+        <instance_id>667105dddb9689504d2bac44d4961987</instance_id>
+        <instance_name>xrayspokestaging</instance_name>
+        <name>sys_hub_action_type_definition_21bbe4ed97f05110d872f9cfe153af6b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_status/><action_template>DATASTREAM</action_template><active>true</active><annotation/><callable_by_client_api>false</callable_by_client_api><category display_value="Xray">b20124ef874e05109bc4ddb83cbb3566</category><compiler_build/><copied_from/><copied_from_name/><description>datastream fo xray data</description><ih_action>false</ih_action><internal_name>jfrog_xray_violation_datastream</internal_name><label_cache/><latest_snapshot/><master_snapshot/><name>JFrog Xray Violation Datastream</name><natlang/><outputs/><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-19 17:43:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>21bbe4ed97f05110d872f9cfe153af6b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>JFrog Xray Violation Datastream</sys_name><sys_overrides/><sys_package display_value="JFrog Xray" source="x_jfro_xray_spoke">8518bb0a2f110110d2dbb6a62799b6aa</sys_package><sys_policy/><sys_scope display_value="JFrog Xray">8518bb0a2f110110d2dbb6a62799b6aa</sys_scope><sys_update_name>sys_hub_action_type_definition_21bbe4ed97f05110d872f9cfe153af6b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-19 17:43:10</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=21bbe4ed97f05110d872f9cfe153af6b"/><sys_variable_value action="delete_multiple" query="document_key=21bbe4ed97f05110d872f9cfe153af6b"/><sys_hub_step_instance action="delete_multiple" query="action=21bbe4ed97f05110d872f9cfe153af6b"/><sys_hub_action_input action="delete_multiple" query="model=21bbe4ed97f05110d872f9cfe153af6b"/><sys_hub_action_output action="delete_multiple" query="model=21bbe4ed97f05110d872f9cfe153af6b"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=21bbe4ed97f05110d872f9cfe153af6b"/><sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=21bbe4ed97f05110d872f9cfe153af6b"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_21bbe4ed97f05110d872f9cfe153af6b"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_21bbe4ed97f05110d872f9cfe153af6b"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_21bbe4ed97f05110d872f9cfe153af6b"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_21bbe4ed97f05110d872f9cfe153af6b"/><sys_hub_action_plan action="delete_multiple" query="action_id=21bbe4ed97f05110d872f9cfe153af6b"/></record_update>]]></payload>
+        <payload_hash>-549459704</payload_hash>
+        <record_name>JFrog Xray Violation Datastream</record_name>
+        <reverted_from/>
+        <source>c63d1b2897805510d872f9cfe153afac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-19 17:43:10</sys_created_on>
+        <sys_id>a5bbaced97f05110d872f9cfe153af89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182178e7f130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-19 17:43:10</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>edbbaced46f051102eb5900ce52ead88</update_guid>
+        <update_guid_history>edbbaced46f051102eb5900ce52ead88:-549459704</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 16:30:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>6e03700a858a4a5390e7fd8c614547a9</sys_id>
+        <sys_metadata>21bbe4ed97f05110d872f9cfe153af6b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>JFrog Xray Violation Datastream</sys_name>
+        <sys_package display_value="JFrog Xray" source="x_jfro_xray_spoke">8518bb0a2f110110d2dbb6a62799b6aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="JFrog Xray">8518bb0a2f110110d2dbb6a62799b6aa</sys_scope>
+        <sys_scope_delete display_value="">03017db5537a41e08009141b04113031</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_21bbe4ed97f05110d872f9cfe153af6b</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_21bbe4ed97f05110d872f9cfe153af6b">a5bbaced97f05110d872f9cfe153af89</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 16:30:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

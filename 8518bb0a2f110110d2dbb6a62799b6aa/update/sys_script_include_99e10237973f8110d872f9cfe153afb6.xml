@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_jfro_xray_spoke.XrayMetricUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Xray Metric's Utility</description>
+        <name>XrayMetricUtil</name>
+        <script><![CDATA[var XrayMetricUtil = Class.create();
+XrayMetricUtil.prototype = {
+    initialize: function() {
+		this.curTs = new GlideTime().getNumericValue()+"";
+		this.snowSessionId = gs.getSessionID(); 
+    },
+	
+	curTs: 0,
+	
+	snowSessionId: "",
+	
+	_getMetricsJson: function(jpdUrl, eventCode) {
+		var reqBody = {};
+		reqBody.app_id = this._getHeapAppId();
+		reqBody.identity = this.snowSessionId;
+		reqBody.event = eventCode;
+		reqBody.timestamp = this.curTs;
+		reqBody.idempotency_key = this._getIdempotencyKey(jpdUrl);
+		reqBody.properties = {};
+		reqBody.properties.jpdUrl = jpdUrl;
+		reqBody.properties.snUserId = gs.getUserID();
+		reqBody.properties.snSessionId = this.snowSessionId;
+		reqBody.properties.snCompanyId = gs.getUser().getCompanyID();
+		
+		return reqBody;
+	},
+	
+	_getHeapAppId: function() {
+		var environment = gs.getProperty('x_jfro_xray_spoke.environment') || 'nonprod';
+		if(typeof environment === 'undefined' || (typeof environment === 'string' && (environment.toLowerCase() == 'prod' || environment == ''))){
+			return 251985503;
+		} 
+		return 2142228165;
+	},
+	
+	_getIdempotencyKey: function(jpdUrl){
+		var gd = new GlideDigest();
+		var idempotencyKey = gd.getSHA256Base64(this.snowSessionId+jpdUrl+this.curTs);
+    },
+	
+	_toBool: function(boolstr){
+		if (typeof boolstr !== 'undefined' && typeof boolstr === 'string' && boolstr.toLowerCase() == 'true') {
+			return true;
+		}
+		return false;
+	},
+	
+	postHeapMetrics: function(jpdUrl, eventCode){
+		var pl = {};
+		var optout = this._toBool(gs.getProperty('x_jfro_xray_spoke.metric.optout')) || false;
+		if(!optout){
+			var jsonRequestBody = this._getMetricsJson(jpdUrl, eventCode);
+			var heapAnalyticsBaseUri = 'https://heapanalytics.com';
+			var resourcePath = '/api/track';
+
+			var request = new sn_ws.RESTMessageV2();
+			request.setEndpoint(heapAnalyticsBaseUri+resourcePath);
+			request.setHttpMethod('POST');
+			request.setRequestHeader("Content-Type", "application/json");
+			request.setRequestHeader("Accept","application/json");
+			request.setRequestBody(JSON.stringify(jsonRequestBody));
+
+			var response = request.execute();
+		
+			pl.res = {};
+			pl.res.statusCode =  response.getStatusCode();
+			pl.res.body = response.getBody();	
+		}
+		return pl;
+	},
+
+    type: 'XrayMetricUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>manasd</sys_created_by>
+        <sys_created_on>2022-06-07 06:45:05</sys_created_on>
+        <sys_id>99e10237973f8110d872f9cfe153afb6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>XrayMetricUtil</sys_name>
+        <sys_package display_value="JFrog Xray" source="x_jfro_xray_spoke">8518bb0a2f110110d2dbb6a62799b6aa</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_scope display_value="JFrog Xray">8518bb0a2f110110d2dbb6a62799b6aa</sys_scope>
+        <sys_update_name>sys_script_include_99e10237973f8110d872f9cfe153afb6</sys_update_name>
+        <sys_updated_by>manasd</sys_updated_by>
+        <sys_updated_on>2022-06-11 00:27:11</sys_updated_on>
+    </sys_script_include>
+</record_update>

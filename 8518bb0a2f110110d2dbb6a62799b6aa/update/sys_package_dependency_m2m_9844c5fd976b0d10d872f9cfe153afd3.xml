@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="REST API Builder Backend" source="com.glide.rest.api_builder.backend">e77e47309703011062aef0cfe153af35</dependency>
+        <min_version/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 10:50:24</sys_created_on>
+        <sys_id>9844c5fd976b0d10d872f9cfe153afd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="JFrog Xray" source="x_jfro_xray_spoke">8518bb0a2f110110d2dbb6a62799b6aa</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 10:50:24</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

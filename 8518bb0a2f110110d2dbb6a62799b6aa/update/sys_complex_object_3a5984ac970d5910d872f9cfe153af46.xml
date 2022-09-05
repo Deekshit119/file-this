@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD765984ac740d5910203072baaeb3e446</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>8518bb0a2f110110d2dbb6a62799b6aa</scope_name>
+        <serialized_content>{"FlowDesigner:FD765984ac740d5910203072baaeb3e446":{"resources":[{"$449_resources":{"bin_mgr_id":"String","bin_mgr_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"bin_mgr_id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"c9c7b69d-a75d-48de-830f-45a209c25f75\"}"}}}],"resources.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"resources\",\"mandatory\":\"false\",\"child_name\":\"resource\",\"uiUniqueId\":\"82a70717-b5f3-4f26-b713-78ba11c8e3c3\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"resource\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"b9aaef2f-75e3-4d87-bca9-82714a11fff1\"}"}},"FlowDesigner:FD765984ac740d5910203072baaeb3e446.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"project_resources\",\"mandatory\":\"false\",\"uiUniqueId\":\"28ba0782-a7b4-4bfe-8bc0-886d01fddd7f\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD765984ac740d5910203072baaeb3e446\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-28 22:54:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a5984ac970d5910d872f9cfe153af46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD765984ac740d5910203072baaeb3e446</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="JFrog Xray" source="x_jfro_xray_spoke">8518bb0a2f110110d2dbb6a62799b6aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JFrog Xray">8518bb0a2f110110d2dbb6a62799b6aa</sys_scope>
+        <sys_update_name>sys_complex_object_3a5984ac970d5910d872f9cfe153af46</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-28 22:54:51</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

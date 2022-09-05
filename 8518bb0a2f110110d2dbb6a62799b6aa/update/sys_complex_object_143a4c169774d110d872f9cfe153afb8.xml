@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD503a4c169f74d11054dfe06202c7e0b8</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>8518bb0a2f110110d2dbb6a62799b6aa</scope_name>
+        <serialized_content>{"FlowDesigner:FD503a4c169f74d11054dfe06202c7e0b8":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD503a4c169f74d11054dfe06202c7e0b8.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"mandatory\":\"false\",\"child_name\":\"Don't Treat as Error_child0\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD503a4c169f74d11054dfe06202c7e0b8\",\"child_label\":\"Don't Treat as Error_child0\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"visible_in_ui\":\"false\",\"order\":\"2\",\"max_length\":\"65000\",\"default_value\":\"\",\"label\":\"Don't Treat as Error\",\"action_error_output\":\"true\",\"uiUniqueId\":\"1fee19b9-84d5-4cad-b5ab-0a786ffce20a\",\"child_type_label\":\"Object\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"child_uiUniqueId\":\"31ff3146-0a34-4ed2-9254-15c76d1e4d15\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-21 23:12:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>143a4c169774d110d872f9cfe153afb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD503a4c169f74d11054dfe06202c7e0b8</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="JFrog Xray" source="x_jfro_xray_spoke">8518bb0a2f110110d2dbb6a62799b6aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JFrog Xray">8518bb0a2f110110d2dbb6a62799b6aa</sys_scope>
+        <sys_update_name>sys_complex_object_143a4c169774d110d872f9cfe153afb8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-21 23:12:10</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD67baf72695c99d1055c4ef01f127879f</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>8518bb0a2f110110d2dbb6a62799b6aa</scope_name>
+        <serialized_content>{"FlowDesigner:FD67baf72695c99d1055c4ef01f127879f":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD67baf72695c99d1055c4ef01f127879f.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"rules\",\"mandatory\":\"true\",\"child_name\":\"rules_child0\",\"uiUniqueId\":\"0b6bf8ab-271a-4618-9976-aa74600038fe\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD67baf72695c99d1055c4ef01f127879f\",\"child_label\":\"rules_child0\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"711be601-2137-4cd8-aef4-8ca1942c4cab\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>alexh</sys_created_by>
+        <sys_created_on>2022-08-04 21:37:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2bbaf72697c99d10f927f0cfe153af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD67baf72695c99d1055c4ef01f127879f</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="JFrog Xray" source="x_jfro_xray_spoke">8518bb0a2f110110d2dbb6a62799b6aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JFrog Xray">8518bb0a2f110110d2dbb6a62799b6aa</sys_scope>
+        <sys_update_name>sys_complex_object_2bbaf72697c99d10f927f0cfe153af9f</sys_update_name>
+        <sys_updated_by>alexh</sys_updated_by>
+        <sys_updated_on>2022-08-04 21:37:20</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
